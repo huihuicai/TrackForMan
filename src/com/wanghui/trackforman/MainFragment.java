@@ -29,7 +29,13 @@ public class MainFragment extends Fragment {
 
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
-			return null;
+			Holder holder;
+			if(null == convertView){
+				
+			}else{
+				
+			}
+			return convertView;
 		}
 		
 		private class Holder{
