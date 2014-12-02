@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wanghui.trackforman.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/app_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_main_title_height" >
+
+        <ImageView
+            android:id="@+id/btn_left"
+            android:layout_width="@dimen/common_title_bar_img_height"
+            android:layout_height="@dimen/common_title_bar_img_height"
+            android:layout_alignParentLeft="true" />
+
+        <ImageView
+            android:id="@+id/btn_right_one"
+            android:layout_width="@dimen/common_title_bar_img_height"
+            android:layout_height="@dimen/common_title_bar_img_height"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/btn_right_second" />
+
+        <ImageView
+            android:id="@+id/btn_right_second"
+            android:layout_width="@dimen/common_title_bar_img_height"
+            android:layout_height="@dimen/common_title_bar_img_height"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/btn_right_third" />
+
+        <ImageView
+            android:id="@+id/btn_right_third"
+            android:layout_width="@dimen/common_title_bar_img_height"
+            android:layout_height="@dimen/common_title_bar_img_height"
+            android:layout_toLeftOf="@+id/btn_right_four" />
+
+        <ImageView
+            android:id="@+id/btn_right_four"
+            android:layout_width="@dimen/common_title_bar_img_height"
+            android:layout_height="@dimen/common_title_bar_img_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp" />
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_title" />
+
+</RelativeLayout>

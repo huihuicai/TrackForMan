@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wanghui.trackforman.MainActivity" >
+
+    <TextView
+        android:id="@+id/text_main_labl"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="首页"
+        android:textColor="#484848"
+        android:textSize="14sp" />
+
+    <GridView
+        android:id="@+id/main_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_below="@id/text_main_labl"
+        android:numColumns="3"
+        android:verticalSpacing="20dp" />
+
+</RelativeLayout>
