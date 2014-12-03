@@ -24,11 +24,17 @@ public final class R {
         public static final int common_title_bar_img_height=0x7f040003;
     }
     public static final class drawable {
-        public static final int btn_title_back=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int btn_main_item_five=0x7f020000;
+        public static final int btn_main_item_four=0x7f020001;
+        public static final int btn_main_item_one=0x7f020002;
+        public static final int btn_main_item_six=0x7f020003;
+        public static final int btn_main_item_three=0x7f020004;
+        public static final int btn_main_item_two=0x7f020005;
+        public static final int btn_title_back=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f08001b;
+        public static final int action_settings=0x7f08001d;
         public static final int app_title=0x7f080009;
         public static final int btn_left=0x7f08000a;
         public static final int btn_login_on=0x7f080005;
@@ -51,6 +57,8 @@ public final class R {
         public static final int login_user_pwd=0x7f080004;
         public static final int login_vertical_divider=0x7f080007;
         public static final int main_grid_view=0x7f080016;
+        public static final int main_item_btn=0x7f08001b;
+        public static final int main_item_tv=0x7f08001c;
         public static final int register_cancel=0x7f080011;
         public static final int register_user_id=0x7f080013;
         public static final int register_user_pwd=0x7f080014;
@@ -64,6 +72,7 @@ public final class R {
         public static final int activity_register=0x7f030003;
         public static final int fragment_main=0x7f030004;
         public static final int fragment_uer_information=0x7f030005;
+        public static final int item_main_menu=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -72,6 +81,12 @@ public final class R {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050001;
+        public static final int txt_main_five=0x7f050007;
+        public static final int txt_main_four=0x7f050006;
+        public static final int txt_main_one=0x7f050003;
+        public static final int txt_main_six=0x7f050008;
+        public static final int txt_main_three=0x7f050005;
+        public static final int txt_main_two=0x7f050004;
     }
     public static final class style {
         /** 

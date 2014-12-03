@@ -4,5 +4,11 @@
     <string name="app_name">TrackForMan</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="txt_main_one">Settings</string>
+    <string name="txt_main_two">Settings</string>
+    <string name="txt_main_three">Settings</string>
+    <string name="txt_main_four">Settings</string>
+    <string name="txt_main_five">Settings</string>
+    <string name="txt_main_six">Settings</string>
 
 </resources>
